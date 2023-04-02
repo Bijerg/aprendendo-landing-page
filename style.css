@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(180deg, black, green);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+.cabecalho img {
+    height: 70px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 50px;
+}
+
+.cabecalho-menu-item {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(200,200,200);
+    font-size: 20px;
+    font-weight: 400;
+    border: 2px solid rgb(50,50,50);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.cabecalho-menu-item:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+.conteudo {
+    margin-bottom: 50px;
+    border-top: 0.4px solid rgb(50,50,50);
+    
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-weight: 50;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: rgb(0, 50, 0);
+    color: rgb(200,200,200);
+    width: 180px;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 1);
+    border-radius: 20px;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: darkgreen;
+}
+
+.conteudo-principal-imagem {
+    height: 500px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 1px solid black;
+    padding-top: 50px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteudo-secundario-paragrafo {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rodape {
+    padding: 30px;
+    border-top: 1px solid black;
+}
+
+.rodape-imagem {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.rodape-creditos {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.nome {
+    color: black;
+}
+
+.rodape-aviso {
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
